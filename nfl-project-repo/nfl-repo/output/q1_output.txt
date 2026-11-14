@@ -1,0 +1,19 @@
+Question 1: How accurately does the point spread predict the final margin?
+Method: least-squares linear fit  result = m * spread_line + b
+------------------------------------------------------------------------
+  Games analyzed            : 7102 
+  Seasons                   : 1999-2026 
+  Slope m                   : 1.051 
+  Intercept b               : -0.073 pts
+  Correlation R             : 0.431 
+  R^2                       : 0.186 
+  p-value (slope)           : < 0.001 
+  Mean error (bias)         : 0.038 pts
+  Mean absolute error       : 10.248 pts
+  Median absolute error     : 8.000 pts
+  Root-mean-square error    : 13.167 pts
+  Favorite won outright     : 66.544 %
+  Within 3 pts of spread    : 21.487 %
+  Within 7 pts of spread    : 45.480 %
+------------------------------------------------------------------------
+Figures saved to figures/fig1_spread_vs_margin.png and figures/fig1b_spread_error_hist.png
